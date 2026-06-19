@@ -1,7 +1,9 @@
 Academia React
 Descripción
 
-Academia React es una aplicación web desarrollada con React y Vite que permite visualizar cursos disponibles e inscribirse a ellos de manera sencilla. La aplicación utiliza React Router para la navegación y Zustand para la gestión global del estado.
+Academia React es una aplicación web desarrollada con React y Vite 
+que permite visualizar cursos disponibles e inscribirse a ellos de manera sencilla. 
+La aplicación utiliza React Router para la navegación y Zustand para la gestión global del estado.
 
 Tecnologías utilizadas
 React
