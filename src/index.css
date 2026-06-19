@@ -1,0 +1,58 @@
+:root {
+  --primary: #4361ee;
+  --primary-dark: #3451d1;
+  --warning-cta: #f7b731;
+  --bg: #f8f9fa;
+  --sans: 'Segoe UI', system-ui, Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: var(--sans);
+  color: #212529;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(135deg, #4361ee 0%, #7209b7 100%);
+  padding: 5rem 0;
+}
+
+.hero-eyebrow {
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+}
+
+/* Bootstrap overrides */
+.navbar-dark .nav-link.active {
+  color: #f7b731 !important;
+}
+
+.btn-warning {
+  background-color: var(--warning-cta);
+  border-color: var(--warning-cta);
+  color: #212529;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.navbar {
+  z-index: 1030;
+}
